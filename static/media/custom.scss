@@ -1,0 +1,16 @@
+/* make the customizations */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600&display=swap");
+
+$theme-colors: (
+    info: tomato,
+    danger: teal,
+    primary: green,
+);
+
+h1, h2, label, .ilabel, a, p, .text, text .navbar-text {
+	color: rgba(248, 251, 255, 0.836);
+	font-family: 'Quicksand', sans-serif !important;
+}
+
+
+

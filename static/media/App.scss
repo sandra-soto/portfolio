@@ -1,0 +1,40 @@
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import '~antd/dist/antd.css';
+@import "custom";
+
+body {
+	background-color: #1f252a;
+	-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 3s; /* Firefox < 16 */
+	-ms-animation: fadein 3s; /* Internet Explorer */
+	-o-animation: fadein 3s; /* Opera < 12.1 */
+	animation: fadein 3s;
+
+}
+
+.ant-layout {
+
+  height:100vh;
+}
+
+.logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.site-layout-sub-header-background {
+  background: #252423;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+
+[data-theme="dark"] .site-layout-sub-header-background, .ant-layout-sider, .ant-menu.ant-menu-dark, .ant-menu-item {
+  background: #252423;
+}
+
+.menu-item-selected {
+  background-color: #3e6fa8;
+}
