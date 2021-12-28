@@ -6,7 +6,7 @@ import {Linkedin, Github, EnvelopeFill, FilePersonFill} from 'react-bootstrap-ic
 import { Button } from 'antd';
 import { Space, Typography, Divider, Tag } from 'antd';
 
-
+import Wave from 'react-wavify'
 import { SmileOutlined } from '@ant-design/icons';
 
 
@@ -14,6 +14,7 @@ class Home extends React.Component {
     render() {
         return (
           <>
+            <div className="fullWidth">
                <div className={"d-flex flex-row justify-content-center align-items-center " + this.props.className} id="home">
                     <div style={{textAlign: 'center'}}>
                          <h1>Sandra Soto</h1>
@@ -54,8 +55,21 @@ class Home extends React.Component {
                          <div className="blush" id="blush1"/>
                          <div className="blush" id="blush2"/>
                     </div>
-
                </div>
+                                 <div className="fullWidth">
+                 <Wave 
+                      fill='#59A1FF'
+                        paused={false}
+                        options={{
+                          height: 20,
+                          amplitude: 20,
+                          speed: 0.15,
+                          points: 3
+                        }}
+                  ></Wave>
+
+                </div>
+              </div>
 
                </>
 

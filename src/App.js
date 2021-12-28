@@ -15,7 +15,7 @@ import { UploadOutlined, UserOutlined, VideoCameraOutlined, HeartFilled, HomeOut
 
 } from '@ant-design/icons';
 
-import Wave from 'react-wavify'
+
 
 const { Header, Content, Footer, Sider } = Layout;
 const { SubMenu } = Menu;
@@ -77,15 +77,7 @@ class App extends React.Component {
       return (
 
          <Layout>
-                  <Wave fill='#f79902'
-        paused={false}
-        options={{
-          height: 20,
-          amplitude: 20,
-          speed: 0.15,
-          points: 3
-        }}
-  />
+
     <Sider
       className="d-none d-sm-block"
       style={{
@@ -129,6 +121,7 @@ class App extends React.Component {
       <Content style={{ margin: '24px 16px 0', overflow: 'initial' }}>
         <div className="site-layout-background" style={{ padding: '2rem'}}>
                 <Home className={this.state.currentItem =="1"? "fadein": "opaque"}></Home>
+                <br/> <br/>
                 <About className={this.state.currentItem =="2"? "fadein": "opaque"}></About>
                 <br/>
 
