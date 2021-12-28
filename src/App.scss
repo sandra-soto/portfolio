@@ -1,0 +1,258 @@
+@import '~antd/dist/antd.css';
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import "custom";
+
+body {
+	background-color: white;
+	-webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 1s; /* Firefox < 16 */
+	-ms-animation: fadein 1s; /* Internet Explorer */
+	-o-animation: fadein 1s; /* Opera < 12.1 */
+	animation: fadein 1s;
+
+}
+.fadein {
+  font-weight: 700;
+  -webkit-animation: popIn 1s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: popIn 1s; /* Firefox < 16 */
+  -ms-animation: popIn 1s; /* Internet Explorer */
+  -o-animation: popIn 1s; /* Opera < 12.1 */
+  animation: popIn 1s;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes popIn {
+  0% {
+    transform: scale(0.80);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1.03);
+  }
+}
+
+@keyframes popOut {
+  100% {
+    transform: scale(0.80);
+  }
+  0% {
+    transform: scale(1.03);
+  }
+}
+.opaque {
+    font-weight: 700;
+    transform: scale(0.80);
+    -webkit-animation: popOut 1s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: popOut 1s; /* Firefox < 16 */
+    -ms-animation: popOut 1s; /* Internet Explorer */
+    -o-animation: popOut 1s; /* Opera < 12.1 */
+    animation: popOut 1s;
+}
+
+.ant-layout {
+
+  height:fit-content;
+}
+
+.logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+
+.site-layout-background, .ant-layout, .ant-layout-footer {
+  background: white;
+}
+
+.ant-layout-footer {
+  color:black;
+}
+
+
+// @media only screen and (max-width: 991px) {
+//   [data-theme="light"] .site-layout-sub-header-background, .ant-layout-header
+//   {
+//     background: white !important;
+//   }
+// }
+
+.ant-layout-sider, .ant-menu.ant-menu-dark, .ant-menu-item,  [data-theme="dark"] .site-layout-sub-header-background, .ant-layout-header {
+  background: white;
+}
+
+.ant-menu-item {
+  box-sizing: border-box;
+  border-radius:0px 5px 5px 0px;
+  border: 2px solid transparent;
+  height: 50px !important;
+  font-size: 1.3em !important;
+  color:black !important;
+}
+
+.ant-menu-item:hover {
+  color: #59a1ff !important;
+  border-radius:0px ;
+  border-bottom: 2px solid #59a1ff;
+
+
+}
+
+.ant-menu-item-selected:hover{
+  border-radius:0px 5px 5px 0px ;
+}
+
+.ant-menu-item-selected {
+  background-color: #59a1ff !important;
+}
+
+.ant-menu {
+  padding-top: 2em;
+}
+
+.ant-modal-body {
+  padding: 0px !important;
+  // height:700px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+object {
+    width: 50rem;
+    height: 70rem;
+}
+
+.ant-modal {
+  width:fit-content !important;
+}
+
+
+.spacer {
+  height:60px;
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}
+
+.spacer30{
+   height:30px;
+}
+
+.spacerSmall {
+  height:1em;
+}
+
+#socials > .ant-tag {
+  font-size: 2rem;
+}
+
+#socials a {
+  font-size: 1.3rem;
+}
+
+.ant-layout-footer {
+  font-weight:bolder;
+  color: gray !important;
+}
+
+#smiley {
+  font-size: 8rem;
+  padding: 0px 20px;
+  transition: font-size 1s;
+}
+
+#smileWrapper {
+  animation: move 6s infinite alternate;
+  height: max-content;
+}
+
+#smileWrapper:hover .blush{
+    opacity: 1;
+}
+
+.blush {
+  width: 1.5rem;
+  height:1.5rem;
+  border-radius: 100px;
+  background-color:pink;
+  position: relative;
+  z-index: 100;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+#blush1 {
+  bottom:4.5rem;
+  left:2rem;
+
+}
+
+#blush2 {
+  bottom:6rem;
+  left:7rem;
+}
+
+
+@keyframes move {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(20deg);
+  }
+}
+
+.ant-divider-inner-text {
+  font-size: 1.2rem;
+  word-wrap: break-word;
+}
+
+
+
+.ant-card {
+  margin-bottom: 2rem;
+  overflow: hidden;
+  hyphens: auto;
+  word-wrap: break-word;
+  height: 95%;
+}
+
+#home {
+  height: 100vh;
+}
+
+.ant-card {
+  transition: transform .5s, box-shadow .5s;
+}
+
+.ant-card:hover {
+  transition: transform .5s, box-shadow .5s;
+}
+
+
+.ant-card .ant-tag:hover {
+  transform: none;
+}
+
+.menuItemStyle {
+  color: inherit !important;
+  transition: none;
+  padding: 0px !important;
+}
