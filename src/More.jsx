@@ -20,7 +20,7 @@ class GraphicDesign extends React.Component {
                         cover={
                           <img
                             alt="example"
-                            src={window.location.origin + "/img/intel.png"}
+                            src={"/img/intel.png"}
                           />
                         }>
             
@@ -34,7 +34,7 @@ class GraphicDesign extends React.Component {
                         cover={
                           <img
                             alt="example"
-                            src={window.location.origin + "/img/mentorship_mixer.png"}
+                            src={"mentorship_mixer.png"}
                           />
                         }>
             
@@ -48,7 +48,7 @@ class GraphicDesign extends React.Component {
                         cover={
                           <img
                             alt="example"
-                            src={window.location.origin + "/img/first_general_meeting.png"}
+                            src={"first_general_meeting.png"}
                           />
                         }>
             
@@ -62,7 +62,7 @@ class GraphicDesign extends React.Component {
                         cover={
                           <img
                             alt="example"
-                            src={window.location.origin + "/img/mock_technicals.png"}
+                            src={"mock_technicals.png"}
                           />
                         }>
             
@@ -76,7 +76,7 @@ class GraphicDesign extends React.Component {
                         cover={
                           <img
                             alt="example"
-                            src={window.location.origin + "/img/ghc.png"}
+                            src={"ghc.png"}
                           />
                         }>
             
@@ -90,7 +90,7 @@ class GraphicDesign extends React.Component {
                         cover={
                           <img
                             alt="example"
-                            src={window.location.origin + "/img/trivia_night.png"}
+                            src={"trivia_night.png"}
                           />
                         }>
             
@@ -106,7 +106,7 @@ class GraphicDesign extends React.Component {
                         cover={
                           <img
                             alt="example"
-                            src={window.location.origin + "/img/sponsor_tiers.png"}
+                            src={"sponsor_tiers.png"}
                           />
                         }>
             
@@ -120,7 +120,7 @@ class GraphicDesign extends React.Component {
                         cover={
                           <img
                             alt="example"
-                            src={window.location.origin + "/img/mock_technicals_2.jpg"}
+                            src={"mock_technicals_2.jpg"}
                           />
                         }>
             
@@ -134,7 +134,7 @@ class GraphicDesign extends React.Component {
                         cover={
                           <img
                             alt="example"
-                            src={window.location.origin + "/img/ghc_2.jpg"}
+                            src={"ghc_2.jpg"}
                           />
                         }>
             
@@ -160,7 +160,7 @@ class DigitalArt extends React.Component {
                         cover={
                           <img
                             alt="example"
-                            src={window.location.origin + "/img/ranier.jpg"}
+                            src={"ranier.jpg"}
                           />
                         }>
             
@@ -175,7 +175,7 @@ class DigitalArt extends React.Component {
                         cover={
                           <img
                             alt="example"
-                            src={window.location.origin + "/img/planet.jpg"}
+                            src={"planet.jpg"}
                           />
                         }>
             
@@ -190,7 +190,7 @@ class DigitalArt extends React.Component {
                         cover={
                           <img
                             alt="example"
-                            src={window.location.origin + "/img/helen.jpg"}
+                            src={"helen.jpg"}
                           />
                         }>
             
@@ -206,7 +206,7 @@ class DigitalArt extends React.Component {
                         cover={
                           <img
                             alt="example"
-                            src={window.location.origin + "/img/planet_2.jpg"}
+                            src={"planet_2.jpg"}
                           />
                         }>
             
@@ -221,7 +221,7 @@ class DigitalArt extends React.Component {
                         cover={
                           <img
                             alt="example"
-                            src={window.location.origin + "/img/landscape_2.jpg"}
+                            src={"landscape_2.jpg"}
                           />
                         }>
             
@@ -236,7 +236,7 @@ class DigitalArt extends React.Component {
                         cover={
                           <img
                             alt="example"
-                            src={window.location.origin + "/img/landscape.jpg"}
+                            src={"landscape.jpg"}
                           />
                         }>
             
@@ -251,7 +251,7 @@ class DigitalArt extends React.Component {
                         cover={
                           <img
                             alt="example"
-                            src={window.location.origin + "/img/rose.jpg"}
+                            src={"rose.jpg"}
                           />
                         }>
             
@@ -266,7 +266,7 @@ class DigitalArt extends React.Component {
                         cover={
                           <img
                             alt="example"
-                            src={window.location.origin + "/img/gleam.png"}
+                            src={"gleam.png"}
                           />
                         }>
             
