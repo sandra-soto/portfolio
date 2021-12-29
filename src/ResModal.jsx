@@ -10,7 +10,8 @@ class ResModal extends React.Component {
     this.state = {
       loading: false,
       visible: false,
-      text: this.props.text
+      text: this.props.text,
+      className: this.props.className
   };
   
   }
@@ -36,7 +37,7 @@ class ResModal extends React.Component {
   render() {
     const { visible, loading } = this.state;
     return (
-      <div>
+      <div className={this.props.className}>
         <div onClick={this.showModal} style={{cursor:'pointer'}}>
           {this.state.text}
         </div>
@@ -52,7 +53,7 @@ class ResModal extends React.Component {
             </Button>
           ]}
         >
-        <object data="/Sandra_Soto_Resume.pdf" type="application/pdf" aria-label="resume download"/>
+        <object data="Sandra_Soto_Resume.pdf" type="application/pdf" aria-label="resume download"/>
         </Modal>
       </div>
     );

@@ -20,7 +20,7 @@ class GraphicDesign extends React.Component {
                         cover={
                           <img
                             alt="example"
-                            src={"/img/intel.png"}
+                            src={"intel.png"}
                           />
                         }>
             
@@ -304,7 +304,7 @@ class More extends React.Component {
                         hoverable
                         style={{ cursor: 'default'}}
                         cover={
-                      <img alt="example" src={ "/img/3D-pig-Preview1.png"}/>
+                      <img alt="example" src={ "3D-pig-Preview1.png"}/>
                   
                         }>
                   
@@ -317,7 +317,7 @@ class More extends React.Component {
                         hoverable
                         style={{ cursor: 'default'}}
                         cover={
-                      <img alt="example" src={ "/img/3D-pig-Preview2.png"}/>
+                      <img alt="example" src={ "3D-pig-Preview2.png"}/>
                   
                         }>
                   
@@ -331,7 +331,7 @@ class More extends React.Component {
                         hoverable
                         style={{ cursor: 'default'}}
                         cover={
-                      <img alt="example" src={ "/img/3D-phone-Preview1.png"}/>
+                      <img alt="example" src={ "3D-phone-Preview1.png"}/>
                   
                         }>
                   
@@ -343,7 +343,7 @@ class More extends React.Component {
                         hoverable
                         style={{ cursor: 'default'}}
                         cover={
-                      <img alt="example" src={ "/img/3D-phone-Preview2.png"}/>
+                      <img alt="example" src={ "3D-phone-Preview2.png"}/>
                   
                         }>
                   
@@ -355,7 +355,7 @@ class More extends React.Component {
                         hoverable
                         style={{ cursor: 'default'}}
                         cover={
-                      <img alt="example" src={ "/img/3D-phone-Preview3.png"}/>
+                      <img alt="example" src={ "3D-phone-Preview3.png"}/>
                   
                         }>
                   
@@ -368,7 +368,7 @@ class More extends React.Component {
                         hoverable
                         style={{ cursor: 'default'}}
                         cover={
-                      <img alt="example" src={ "/img/3D-phone-Preview4.png"}/>
+                      <img alt="example" src={ "3D-phone-Preview4.png"}/>
                   
                         }>
                   

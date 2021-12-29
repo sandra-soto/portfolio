@@ -122,14 +122,14 @@ class App extends React.Component {
       </Header>*/}
       <Content style={{ margin: '24px 16px 0', overflow: 'initial' }}>
         <div className="site-layout-background" style={{ padding: '2rem'}}>
-                <Home className={this.state.currentItem =="1"? "fadein": "opaque"}></Home>
+                <Home className={this.state.currentItem =="1"? "popInLong": "opaque"}></Home>
                 <br/> <br/>
-                <About className={this.state.currentItem =="2"? "fadein": "opaque"}></About>
+                <About className={this.state.currentItem =="2"? "popIn": "opaque"}></About>
                 <br/>
 
-                <Projects className={this.state.currentItem =="3"? "fadein": "opaque"}></Projects>
+                <Projects className={this.state.currentItem =="3"? "popIn": "opaque"}></Projects>
                
-                <More className={this.state.currentItem =="4"? "fadein": "opaque"}/>
+                <More className={this.state.currentItem =="4"? "popIn": "opaque"}/>
                 <br/>
 {/*                <Button type="primary" size={"default"} icon={ <FilePersonFill/>} className="d-flex align-items-center">
                  

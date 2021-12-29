@@ -11,7 +11,7 @@ body {
 	animation: fadein 1s;
 
 }
-.fadein {
+.popIn {
   font-weight: 700;
   -webkit-animation: popIn 1s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: popIn 1s; /* Firefox < 16 */
@@ -19,6 +19,47 @@ body {
   -o-animation: popIn 1s; /* Opera < 12.1 */
   animation: popIn 1s;
 }
+
+.popInLong {
+  font-weight: 700;
+  transform: scale(1.03);
+    -webkit-animation: popIn 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: popIn 2s; /* Firefox < 16 */
+  -ms-animation: popIn 2s; /* Internet Explorer */
+  -o-animation: popIn 2s; /* Opera < 12.1 */
+  animation: popIn 2s;
+  transition: transform 2s; 
+}
+
+.bweh {
+  transform: scale(1);
+  transition: width 2s, 
+}
+
+
+
+
+@keyframes popped {
+  0% {
+    transform: scale(.80);
+  }
+  100% {
+    transform: scale(1);
+  }
+
+}
+
+
+.fadein {
+  font-weight: 700;
+  -webkit-animation: fadeIn 1s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadeIn 1s; /* Firefox < 16 */
+  -ms-animation: fadeIn 1s; /* Internet Explorer */
+  -o-animation: fadeIn 1s; /* Opera < 12.1 */
+  animation: fadeIn 1s;
+
+}
+
 
 @keyframes fadein {
   0% {
@@ -163,9 +204,6 @@ object {
   font-size: 2rem;
 }
 
-#socials a {
-  font-size: 1.3rem;
-}
 
 .ant-layout-footer {
   font-weight:bolder;

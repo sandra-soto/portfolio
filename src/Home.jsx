@@ -3,7 +3,7 @@ import React from 'react';
 import ResModal from './ResModal';
 
 import {Linkedin, Github, EnvelopeFill, FilePersonFill} from 'react-bootstrap-icons';
-import { Button } from 'antd';
+import { Button, Card } from 'antd';
 import { Space, Typography, Divider, Tag } from 'antd';
 
 import Wave from 'react-wavify'
@@ -14,7 +14,7 @@ class Home extends React.Component {
     render() {
         return (
           <>
-            <div className="fullWidth">
+            <div>
                <div className={"d-flex flex-row justify-content-center align-items-center " + this.props.className} id="home">
                     <div style={{textAlign: 'center'}}>
                          <h1>Sandra Soto</h1>
@@ -43,7 +43,8 @@ class Home extends React.Component {
                                         </Tag>     
                                    </a>*/}
                                    <Tag icon={<FilePersonFill/>} color="red">
-                                        <ResModal text="&nbsp;resume"></ResModal>
+                                        <ResModal className="d-none d-lg-block" text="&nbsp;resume"></ResModal>
+                                        <a href="Sandra_Soto_Resume.pdf" download className="d-lg-none" style={{fontsize: 'inherit', color: 'inherit'}}> &nbsp; resume</a>
                                    </Tag>     
                                    
                               </div> 
@@ -55,20 +56,39 @@ class Home extends React.Component {
                          <div className="blush" id="blush1"/>
                          <div className="blush" id="blush2"/>
                     </div>
-               </div>
-                                 <div className="fullWidth">
+                </div>
+               <div className="fullWidth">
                  <Wave 
-                      fill='#59A1FF'
+                      style={{position: 'static'}}
+                      fill="rgba(89,161,255, .7)"
+                      stroke="white"
+                        paused={false}
+                        options={{
+                          height: 40,
+                          amplitude: 50,
+                          speed: 0.10,
+                          points: 3
+                        }}
+                  >
+
+                  </Wave>
+                  <Wave 
+                    style={{position: 'relative', bottom:'9.3em'}}
+                      fill="rgba(89,161,255, .5)"
+                      stroke="white"
                         paused={false}
                         options={{
                           height: 20,
-                          amplitude: 20,
+                          amplitude: 30,
                           speed: 0.15,
-                          points: 3
+                          points: 2
                         }}
-                  ></Wave>
+                  >
+                  </Wave>
+
 
                 </div>
+
               </div>
 
                </>

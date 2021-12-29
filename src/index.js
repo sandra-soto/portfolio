@@ -3,7 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import WebFont from 'webfontloader';
 
+WebFont.load({
+   google: {
+     families: ['Quicksand:300,400,500,600,700', 'Roboto:300,400,500,600,700']
+   }
+});
 ReactDOM.render(
   <App>
   		<title>HTML Elements Reference</title>
